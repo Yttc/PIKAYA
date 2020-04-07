@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+/*用CSS指定P標籤樣式*/
+	p{
+		color:darkblue;
+		font-size:18px; 
+	}
+	/*自定義標籤(以"."開頭)，須於body中指定的標籤加上class類別*/
+	.font_color{
+		color:crimson;
+	}
+	.font_size{
+		font-size:18px;
+	}
+	/*定義id(以#開頭)，適用於h標題??? 注意:id只能使用一次，不得指定於多個標題*/
+	#title_font_color{
+		font-size:20px;
+		color:#0094C8;
+	}
+	/*複合群組:指定標籤樣式*/
+	h4,h5,h6{
+		color:orangered;
+	}
