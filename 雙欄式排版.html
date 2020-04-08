@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Second floor</title>
+<style type="text/css">
+.wrap{ /*wrap前的點點為自定義之用，若為既有的指令則不須，參下面header樣式指令*/
+	width:960px;
+	margin: auto;
+	background-color: cornflowerblue;
+	}
+header{
+	height:150px;
+	background-color:#FFEC4B;
+	}
+nav{
+	height:50px;
+	background-color:burlywood;
+	}
+article{
+	width:480px;
+	height:450px;
+	background-color:lightcoral;
+	float:left;
+	}
+aside{
+	width:480px;
+	height:450px;
+	background-color:aquamarine;
+	float:left;
+	}
+footer{
+	height:50px;
+	background-color:papayawhip;
+	clear:both;
+	}
+</style>	
+</head>
+
+<body>
+<!--雙欄式設計基本架構-->
+	
+	<div class="wrap"><!--控制網頁寬度的"包裹"-->
+		<header>這裡是黑的</header><!--LOGO、形象banner、包選單/廣告、加入最愛、會員登入..等-->
+		<nav>nav可放選單</nav><!--"導航"放選單-->
+		<div class="content">
+			<article>主內容</article><!--主要內容-->
+			<aside>次內容</aside><!--次要內容(廣告、會員登入..等)-->
+		</div>
+		<footer>放聯絡資訊 &copy;版權宣告</footer><!--頁面尾端(聯絡資訊、版權)-->
+		
+	</div>
+	
+</body>
+</html>
